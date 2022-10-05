@@ -1,4 +1,4 @@
-## **Проект YaMDb:**
+## YaMDb
 
 - Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles).
   Произведениям присваивается категория (Category), а так же жанр (Genre).
@@ -10,33 +10,33 @@
 
 ____
 
-# Как запустить проект:
+## Как запустить проект:
 
-1) Клонировать репозиторий и перейти в него в командной строке:
+Клонировать репозиторий и перейти в него в командной строке:
 
 `git clone https://github.com/anywindblows/api_yamdb/`
 
-2) Cоздать и активировать виртуальное окружение:
+Cоздать и активировать виртуальное окружение:
 
 `python -m venv venv`
 
 `source venv/Scripts/activate`
 
-3) Установить зависимости из файла requirements.txt:
+Установить зависимости из файла requirements.txt:
 
 `python -m pip install --upgrade pip`
 
 `pip install -r requirements.txt`
 
-4) Выполнить миграции:
+Выполнить миграции:
 
 `python3 manage.py migrate`
 
-5) Заполнить базу данных, с помощью management комманды:
+Заполнить базу данных, с помощью management комманды:
 
 `python3 manage.py fill_db`
 
-## **Эндпоинты для взаимодействия с ресурсами:**
+## Эндпоинты для взаимодействия с ресурсами:
 
 ```bash
   - api/v1/auth/signup/ (POST): Передаём email и username, получаем confirmation_code.
@@ -69,6 +69,6 @@ ____
 
 ## **Разработчики группового проекта:**
 
+- Марат Хайрутдинов: https://github.com/Marik63
 - Александр Кондратьев: https://github.com/anywindblows
-- Дмитрий Пирогов:  https://github.com/Levayaruka
-- Марат Хайрутдинов:   https://github.com/Marik63
+- Дмитрий Пирогов: https://github.com/Levayaruka
